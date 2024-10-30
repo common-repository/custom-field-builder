@@ -1,0 +1,11 @@
+<div class="cfb-container-full cfb-form-group">
+  <div class="cfb-row v-align-center">
+    <div class="cfb-col-4">
+      <label for="<?= $field['input_id']; ?>"><?= $field['title']; ?></label>
+    </div>
+    <div class="cfb-col-8 cfb-date-picker">
+      <?= cfBuilderImportSvg('date-picker'); ?>
+      <input type="date" name="<?= $field['input_name']; ?>" id="<?= $field['input_id']; ?>" value="<?= $field['value']; ?>" class="cfb-form-control cfb-form-control--date j-date-picker">
+    </div>
+  </div>
+</div>
